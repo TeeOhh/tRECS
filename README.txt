@@ -46,10 +46,6 @@ The following visualizations have been connected to the interface: entity visual
 
 CONTENTS OF MASTER FOLDER
 
-Interface folder:
-
-Multiple sample datasets.
-
 Interface.py: contains the code needed for front end of application, including: HTML layout, Dash components and event handlers, calls to backend. Contains iqss_interface object (below).
 
 Iqss_interface.py: contains all coded needed for back end of application, including: user loaded data frame, cleaned data frame, and built models. Contains two objects, the iqss_interface object (holds the data frames) and the model_object (holds the necessary df, tf-idf, lda, and spacy models). 
