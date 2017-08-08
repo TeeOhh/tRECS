@@ -1,4 +1,6 @@
-RECOMMENDATION SYSTEM DEVELOPER
+tRECS
+
+Text recommendation system developer built in Python and Dash by Plotly.
 
 Authors: Taylor Olson, Janie Neal, Christiana Prater-Lee, Eshita Nandini
 
