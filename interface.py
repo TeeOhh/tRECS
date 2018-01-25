@@ -7,7 +7,6 @@ from dash.dependencies import Input, Output, Event, State
 import plotly.graph_objs as graph
 import pickle
 import pandas as pd
-import functools32
 import iqss_interface
 import utils
 import os
@@ -99,7 +98,7 @@ def test(slider_value):
 	# 				 The user can then choose the desired columns to run through the interface (label column, and data column).
 	# 				 The user will see a live preview of the uploaded dataframe when both the label and data column are chosen.
 	# '''
-
+	global interface_obj
 	if slider_value == 0:
 		return (
 			html.Div(['Upload your data and select the columns and you \
@@ -143,7 +142,6 @@ def test(slider_value):
 	# '''
 
 	elif slider_value == 1:
-		global interface_obj
 		## Build document frequency matrix from clean_df for slider functionality
 		interface_obj.default_clean()
 		interface_obj.build_doc_freq()
@@ -201,7 +199,6 @@ def test(slider_value):
 
 	elif slider_value == 2:
 		## Rebuild document frequency matrix after finishing cleaning
-		global interface_obj
 		interface_obj.build_doc_freq()
 
 		return html.Div([
@@ -299,7 +296,6 @@ def test(slider_value):
 	# '''
 
 	elif slider_value == 4:
-		global interface_obj
 		courses = interface_obj.clean_df.iloc[:, 0]
 		return html.Div([
 				html.Div([
@@ -717,7 +713,6 @@ def show_analyzing_content(value):
 			])
 
 	elif value == 'topics':
-		global interface_obj
 		global cluster_obj
 		cluster_obj = lda_cluster(interface_obj.clean_df)
 		cluster_obj.make_lda(10, 1)
