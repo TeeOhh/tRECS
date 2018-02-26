@@ -1,0 +1,23 @@
+
+name: trecs
+channels:
+  - conda-forge
+  - defaults
+dependencies:
+  - python=3.6
+  - numpy
+  - matplotlib
+  - pandas
+  - scipy
+  - scikit-learn
+  - spacy
+  - nltk
+  - nbserverproxy
+  - appmode
+  - pip:
+    - ipywidgets==7.0.1 # for interactive plots
+    - dash==0.21.0  # The core dash backend
+    - dash-renderer==0.11.3  # The dash front-end
+    - dash-html-components==0.9.0 # HTML components
+    - dash-core-components==0.18.1  # Supercharged components
+    - plotly==2.4.1  # Plotly graphing library used in examples
