@@ -21,3 +21,4 @@ dependencies:
     - dash-html-components==0.9.0 # HTML components
     - dash-core-components==0.18.1  # Supercharged components
     - plotly==2.4.1  # Plotly graphing library used in examples
+    - lda

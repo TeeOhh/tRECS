@@ -2,9 +2,10 @@
 
 - [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/tRECS/master) [![Binder]( https://img.shields.io/badge/launch-jupyterlab-red.svg)](https://mybinder.org/v2/gh/4QuantOSS/tRECS/master?urlpath=lab)
 
-## Notebooks
+## Demos
 
-- [![Binder](https://img.shields.io/badge/launch-demo%20notebook-green.svg)](https://mybinder.org/v2/gh/4QuantOSS/tRECS/master?filepath=notebooks%2Fdemo.ipynb)
+- [![Binder](https://img.shields.io/badge/launch-spooky%20demo-green.svg)](https://mybinder.org/v2/gh/4QuantOSS/tRECS/master?filepath=apps%2Fdemo_spooky.ipynb) from the [Kaggle Spooky Author Competition](https://www.kaggle.com/c/spooky-author-identification/data)
+
 
 
 Text recommendation system developer built in Python and Dash by Plotly.
