@@ -1,0 +1,3 @@
+source activate kernel # ensure we are in the current environment
+python -m nltk.downloader all
+python -m spacy download en
