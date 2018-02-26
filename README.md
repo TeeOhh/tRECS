@@ -1,5 +1,9 @@
 # tRECS
 
+- [![Binder](https://mybinder.org/badge.svg)](https://mybinder.org/v2/gh/4QuantOSS/tRECS/master) [![Binder]( https://img.shields.io/badge/launch-jupyterlab-red.svg)](https://mybinder.org/v2/gh/4QuantOSS/tRECS/master?urlpath=lab)
+
+## Notebooks
+
 - [![Binder](https://img.shields.io/badge/launch-demo%20notebook-green.svg)](https://mybinder.org/v2/gh/4QuantOSS/tRECS/master?filepath=notebooks%2Fdemo.ipynb)
 
 
